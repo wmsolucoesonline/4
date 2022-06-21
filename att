@@ -1,8 +1,8 @@
 {
   "Version": "1.1.1",
   "ReleaseNotes": "»»———- UPDATE ———-«« \nWmNet_4G \n ★━━━━━━━━ \n ⛃ NOVAS CONFIG! ⛃ \n ᱬ 100% OTIMIZADO ᱬ \n ━━━━━━━━━★",
-  "UrlUpdate": "https://pastebin.com/raw/rrZ7ibgr",
-  "Sms": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/wmsolucoesonline/4/main/att",
+  "Sms": "https://raw.githubusercontent.com/wmsolucoesonline/4/main/sms",
   "EmailFeedback": "",
   "UrlContato": "t.me/WM_solucoesOnline",
   "UrlTermos": "",
@@ -23,9 +23,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
-  ],
-  "Servers": [
+    },
     {
       "Name": "🇧🇷 ROTA2 🇧🇷",
       "TYPE": "premium",
@@ -36,7 +34,40 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
+    {
+      "Name": "🇧🇷 ROTA3 🇧🇷",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "rota2.wmsolucosonline.xyz",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "🇧🇷 ROTA4 🇧🇷",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "rota2.wmsolucosonline.xyz",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "🇧🇷 ROTA5 🇧🇷",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "rota2.wmsolucosonline.xyz",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
   ],
 
 "Networks": [
