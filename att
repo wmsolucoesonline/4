@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.3",
+  "Version": "1.1.4",
   "ReleaseNotes": "»»———- UPDATE ———-«« \nWmNet_4G \n ★━━━━━━━━ \n ⛃ NOVAS CONFIG! ⛃ \n ᱬ 100% OTIMIZADO ᱬ \n ━━━━━━━━━★",
   "UrlUpdate": "https://raw.githubusercontent.com/wmsolucoesonline/4/main/att",
   "Sms": "https://raw.githubusercontent.com/wmsolucoesonline/4/main/sms",
@@ -10,37 +10,38 @@
   "Udp": [
     {
       "Porta": "7300"
+},
+{
+      "Porta": "7100"
+},
+{
+      "Porta": "7200"
+},
+{
+      "Porta": "7400"
+},
+{
+      "Porta": "7500"
     }
   ],
   "Servers": [
     {
-      "Name": "🇧🇷  VIP",
+      "Name": "🇧🇷 VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brvip.wmsolucoesonline.xyz",
-      "CheckUser": "http://144.22.183.213:5454/checkUser",
+      "ServerIP": "vip.wmsolucoesonline.xyz",
+      "CheckUser": "http://144.22.247.40:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "🇧🇷 ROTA2 🇧🇷",
+      "Name": "🇧🇷 ROTA1 🇧🇷",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "rota2.wmsolucoesonline.xyz",
-      "CheckUser": "http://200.98.64.71:5454/check/",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "🇧🇷 ROTA3 🇧🇷",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "rota2.wmsolucoesonline.xyz",
-      "CheckUser": "",
+      "ServerIP": "rota1.wmsolucoesonline.xyz",
+      "CheckUser": "http://168.138.247.215:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -50,19 +51,8 @@
       "Name": "🇧🇷 ROTA4 🇧🇷",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "rota2.wmsolucoesonline.xyz",
-      "CheckUser": "",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "🇧🇷 ROTA5 🇧🇷",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "rota2.wmsolucoesonline.xyz",
-      "CheckUser": "",
+      "ServerIP": "rota4.wmsolucoesonline.xyz",
+      "CheckUser": "http://45.140.193.158:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -72,11 +62,11 @@
 
 "Networks": [
    {
-      "Name": "💙 -TIM CLOUD",
+      "Name": "💙 -TIM DATA",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "static.r4you.co",
+      "Payload": "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [crlf]Upgrade:Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
+      "SNI": "bam.nr-data.net",
+      "TlsIP": "162.247.241.14",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -112,24 +102,24 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "💜 -VIVO CLOUD",
+      "Name": "💜 -VIVO FRONT VIP",
       "FLAG": "vivo",
-      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "money-staging.infinitepay.io",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: dlmzgn59ur1me.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
    },
     {
-      "Name": "💜 -VIVO FAST",
+      "Name": "💜 -VIVO FRONT ROTA1",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: dyeovyaqusbnj.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
    },
     {
       "Name": "💜 -VIVO NEXT",
